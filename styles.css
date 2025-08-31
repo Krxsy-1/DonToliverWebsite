@@ -107,10 +107,11 @@
         background-image: url('https://bitsum.com/wp-content/uploads/dark-background-images-5561-5821-hd-wallpapers.jpg');
         color: white;
         display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
         padding: 60px 80px;
         gap: 40px;
+        text-align: center;
         max-width: 1200px;
         margin: 60px auto;
         border-radius: 16px;
@@ -133,11 +134,13 @@
         font-size: 26px;
         font-weight: bold;
         margin-bottom: 10px;
+        text-align: center;
     }
     .album-description {
         font-size: 16px;
         line-height: 1.6;
         margin-bottom: 24px;
+        text-align: center;
     }
     .album-cover {
         width: 300px;
@@ -146,6 +149,7 @@
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
     .song-listens-options {
+        text-align: center;
         display: flex;
         align-items: center;
         gap: 8px;
